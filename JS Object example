@@ -9,3 +9,14 @@ function HouseKeeper (yearsOfExperience, name, cleaningRepertoire) {
 	this.name = name;
 	this.cleaningRepertoire = cleaningRepertoire;
 }
+
+var houseKeeper1 = new HouseKeeper(17, "Angela", ["kitchen", "bedroom"]);
+
+console.log(houseKeeper1.yearsOfExperience);
+17
+
+console.log(houseKeeper1.name);
+Angela
+
+console.log(houseKeeper1.cleaningRepertoire);
+(2) ['kitchen', 'bedroom']
