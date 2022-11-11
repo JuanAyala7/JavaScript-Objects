@@ -10,7 +10,10 @@ function HouseKeeper (yearsOfExperience, name, cleaningRepertoire) {
 	this.cleaningRepertoire = cleaningRepertoire;
 }
 
-var houseKeeper1 = new HouseKeeper(17, "Angela", ["kitchen", "bedroom"]);
+
+//For Example via Google Inspect > Console
+
+var houseKeeper1 = new HouseKeeper(17, "Angela", ["kitchen", "bedroom"]); 
 
 console.log(houseKeeper1.yearsOfExperience);
 17
